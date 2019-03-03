@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
     checkFile(fp);
     FILE *fp1 = fopen(argv[2], "w");
     checkFile(fp1);
-    FILE *fp2 = fopen(argv[2], "w");
+    FILE *fp2 = fopen(argv[3], "wb");
     checkFile(fp2);
     rewind(fp);
     //Variables
@@ -31,14 +31,15 @@ int main(int argc, char* argv[]) {
     fscanf(fp, "%le %le %le\n", &rd, &r, &c);
    // printf("%le %le %le\n",rd, r, c);
     TreeNode *tree = postTree(fp);
+    prePrint(tree, fp1);
     caprCalc(tree, 0, c, rd, r);
     timeCalc(tree, 0, 0);
   //  prePrint(tree);
-    delayPrint(tree, fp1);
+    delayPrintB(tree, fp2);
     fclose(fp);
     fclose(fp1);
     fclose(fp2);
-    freeTree(tree);
+    free_Tree(tree);
 }
 
 int checkFile(FILE *fp){

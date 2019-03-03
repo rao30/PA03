@@ -54,13 +54,18 @@ TreeNode *pop(TreeNode **head) {
     return NULL;
 }
 
-void prePrint(TreeNode *tn) {
+void prePrint(TreeNode *tn, FILE *fp) {
     if (tn == NULL) {
         return;
     }
-    printf("label = %d\n",tn->label);
-    prePrint(tn->left);
-    prePrint(tn->right);
+    if (tn->label != -1) {
+    fprintf(fp, "%d(%le)\n", tn->label,tn->c);
+    }
+    else {
+        fprintf(fp, "(%le %le)\n", tn->lw, tn->rw);
+    }
+    prePrint(tn->left, fp);
+    prePrint(tn->right, fp);
 
 }
 
@@ -73,6 +78,19 @@ void delayPrint(TreeNode *tn, FILE *fp) {
     }
     delayPrint(tn->left, fp);
     delayPrint(tn->right, fp);
+
+}
+
+void delayPrintB(TreeNode *tn, FILE *fp) {
+    if (tn == NULL) {
+        return;
+    }
+    if(tn->label != -1) {
+        fwrite(&tn->label, sizeof(int), 1, fp);
+        fwrite(&tn->t, sizeof(double), 1, fp);
+    }
+    delayPrintB(tn->left, fp);
+    delayPrintB(tn->right, fp);
 
 }
 

@@ -6,26 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/d/Purdue/ECE368/PA/PA03/pa3.c
-math.h
--
-stdio.h
--
-stdlib.h
--
-tree.h
-/cygdrive/d/Purdue/ECE368/PA/PA03/tree.h
-pa3.h
-/cygdrive/d/Purdue/ECE368/PA/PA03/pa3.h
-
-/cygdrive/d/Purdue/ECE368/PA/PA03/pa3.h
-math.h
--
-stdio.h
--
-stdlib.h
--
-
 /cygdrive/d/Purdue/ECE368/PA/PA03/tree.c
 math.h
 -

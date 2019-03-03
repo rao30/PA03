@@ -26,12 +26,14 @@ TreeNode *create_leaf(int label, double capacitance);
 
 TreeNode *postTree(FILE *fp);
 
-void prePrint(TreeNode *tn);
+void prePrint(TreeNode *tn, FILE *fp);
 
 void delayPrint(TreeNode *tn, FILE *fp);
+
+void delayPrintB(TreeNode *tn, FILE *fp);
 
 void caprCalc(TreeNode *tn, double cap, double c, double rpath, double r);
 
 void timeCalc(TreeNode *tn, double prevr, double prevrc);
 
-void freeTree(TreeNode *tn);
+void free_Tree(TreeNode *tn);
