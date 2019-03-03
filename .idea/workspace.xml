@@ -12,12 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a5681cb-6df9-45cb-9e0e-13feadf36f6a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/banana" beforeDir="false" afterPath="$PROJECT_DIR$/banana" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PA3.dir/tree.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PA3.dir/tree.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/PA3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/PA3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mango" beforeDir="false" afterPath="$PROJECT_DIR$/mango" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tree.c" beforeDir="false" afterPath="$PROJECT_DIR$/tree.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pa3.c" beforeDir="false" afterPath="$PROJECT_DIR$/pa3.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pa3.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+            <state relative-caret-position="170">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="e#42#59#0" expanded="true" />
               </folding>
@@ -125,8 +120,8 @@
         <option value="D:/staging/Team/progress/progress2.html" />
         <option value="$PROJECT_DIR$/pa3.h" />
         <option value="$PROJECT_DIR$/tree.h" />
-        <option value="$PROJECT_DIR$/pa3.c" />
         <option value="$PROJECT_DIR$/tree.c" />
+        <option value="$PROJECT_DIR$/pa3.c" />
       </list>
     </option>
   </component>
@@ -214,12 +209,12 @@
       <workItem from="1551385508854" duration="863000" />
       <workItem from="1551387525505" duration="4206000" />
       <workItem from="1551404795781" duration="13313000" />
-      <workItem from="1551488674581" duration="27600000" />
+      <workItem from="1551488674581" duration="28482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48203000" />
+    <option name="totallyTimeSpent" value="49085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -277,7 +272,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/pa3.c</url>
-          <line>38</line>
+          <line>44</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -415,8 +410,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pa3.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="170">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="e#42#59#0" expanded="true" />
           </folding>

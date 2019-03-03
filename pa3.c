@@ -14,11 +14,17 @@ int main(int argc, char* argv[]) {
         return EXIT_FAILURE;
     }
     FILE *fp = fopen(argv[1], "r");
-    checkFile(fp);
+    if(fp == NULL) {
+        return EXIT_FAILURE;
+    }
     FILE *fp1 = fopen(argv[2], "w");
-    checkFile(fp1);
+    if (fp1 == NULL) {
+        return EXIT_FAILURE;
+    }
     FILE *fp2 = fopen(argv[3], "wb");
-    checkFile(fp2);
+    if(fp2 == NULL) {
+        return EXIT_FAILURE;
+    }
     rewind(fp);
     //Variables
     double rd = 0;
@@ -42,11 +48,6 @@ int main(int argc, char* argv[]) {
     free_Tree(tree);
 }
 
-int checkFile(FILE *fp){
-    if (fp == NULL) {
-        return EXIT_FAILURE;
-    }
-}
 
 
 
