@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/PA3.dir/pa3.c.o CMakeFiles/PA3.dir/tree.c.o  -o PA3.exe -Wl,--out-implib,libPA3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
