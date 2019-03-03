@@ -12,7 +12,6 @@ typedef struct _TreeNode {
     double c;
     double ctot;
     double rpath;
-    double delay;
     double lw;
     double rw;
     struct _TreeNode *left;

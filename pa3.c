@@ -30,9 +30,6 @@ int main(int argc, char* argv[]) {
     double rd = 0;
     double r = 0;
     double c = 0;
-    int nodeL = 0;
-    double nodeC = 0;
-    int match = 0;
 
     fscanf(fp, "%le %le %le\n", &rd, &r, &c);
    // printf("%le %le %le\n",rd, r, c);
