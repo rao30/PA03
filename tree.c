@@ -138,19 +138,19 @@ TreeNode *postTree(FILE *fp) {
     TreeNode *head = NULL;
     TreeNode *right = NULL;
     TreeNode *left = NULL;
-    char str[100];
+    char str[200];
     int match;
     while(1) {
-        fgets(str, 100, fp);
+        fgets(str, 200, fp);
         if( feof(fp)) {
             break;
         }
-        match = sscanf(&str, "%d(%le)\n", &label, &nodeC);
+        match = sscanf(str, "%d(%le)\n", &label, &nodeC);
         if (match == 2) {
             TreeNode *leaf = create_leaf(label, nodeC);
             head = push(head, leaf);
         } else {
-            match = sscanf(&str, "(%le %le)\n", &lw, &rw);
+            match = sscanf(str, "(%le %le)\n", &lw, &rw);
             right = pop(&head);
             left = pop(&head);
             head = push(head, create_node(lw, rw, left, right));
